@@ -43,8 +43,11 @@
 		.mini-bar {
 			display: block;
 		}
-		.Video div > iframe {
-			height: 190px;
+		.Video {
+			margin-top: 28px;
+			div > iframe {
+				height: 190px;
+			}
 		}
 	}
 
