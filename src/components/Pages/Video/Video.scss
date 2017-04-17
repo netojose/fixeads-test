@@ -1,0 +1,40 @@
+@import './../../../styles/_colors.scss';
+
+$padding: 5%;
+
+.Video {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+
+    .col-video-left{
+        width: 74%;
+        margin-right: 1%;
+        border: solid 1px $greyLight;
+        box-sizing: border-box;
+        padding-top: 20px;
+        div > iframe {
+            width: 90%;
+            height: 400px;
+            margin-left: $padding;
+            border: none;
+        }
+        h3 {
+            border-top: solid 1px $greyLight;
+            padding: 30px $padding 0px $padding;
+            margin-bottom: 5px;
+        }
+        p.info {
+            padding: 0 $padding 0 $padding;
+            margin-top: 0;
+        }
+    }
+
+    .col-video-right{
+        width: 25%;
+        border: solid 1px $greyLight;
+        .ListItems .ResultItem {
+            width: calc(100% - 16px);
+        }
+    }
+}

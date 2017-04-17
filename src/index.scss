@@ -1,0 +1,14 @@
+// Global styles
+@import './styles/global.scss';
+
+// General responsive rules:
+@import './styles/responsive/_general.scss';
+
+// Large >= 992px:
+@import './styles/responsive/large.scss';
+
+// Medium >= 768px
+@import './styles/responsive/medium.scss';
+
+// Small < 768px:
+@import './styles/responsive/small.scss';

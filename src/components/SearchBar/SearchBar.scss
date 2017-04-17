@@ -1,0 +1,41 @@
+@import './../../styles/_colors.scss';
+
+.SearchBar {
+    float: left;
+    width: 100%;
+    
+    input{
+        float: left;
+        height: 47px;
+        font-size: 1.1em;
+        outline: none;
+        &[type=text]{
+            width: calc(86% - 10px);
+            height: 35px;
+            padding: 5px;
+            transition: all 0.30s ease-in-out;
+            border: 1px solid $greyLight;
+            &:focus {
+                box-shadow: 0 0 5px $focus;
+                border: 1px solid $focus;
+                background: #efefef;
+            }
+            &::placeholder{
+                color: $greyLight;
+            }
+        }
+
+        &[type=button]{
+            width: 11%;
+            float: right;
+            font-size: .9em;
+            background: $greyLight;
+            border: solid 1px $grey;
+            transition: all 0.2s linear;
+            &:hover, &:focus {
+                color: $white;
+                background: $grey;
+            }
+        }
+    }
+}

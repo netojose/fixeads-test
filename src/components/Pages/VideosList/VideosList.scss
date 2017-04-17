@@ -1,0 +1,21 @@
+@import './../../../styles/_colors.scss';
+
+.VideosList {
+    .page-title {
+        display: none;
+        text-align: center;
+        font-weight: 100;
+        float: left;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .items {
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        padding: 5px;
+        border: solid 1px $greyLight;
+    }
+}

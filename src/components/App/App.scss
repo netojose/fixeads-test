@@ -1,0 +1,103 @@
+@import './../../styles/_colors.scss';
+
+.App {
+    > .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0px 10px;
+        display: flex;
+
+        .col-left {
+            border: solid 1px $greyLight;
+            min-height: calc(100vh - 20px);
+            position: relative;
+
+            nav {
+                list-style: none;
+                padding: 0;
+                margin: 10px 15%;
+            }
+
+            nav a, section.logout a {
+                text-decoration: none;
+                display: block;
+                color: $white;
+                font-size: .9em;
+                background: $grey;
+                text-align: center;
+                padding: 5px;
+                margin: 10px 0;
+                box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+                transition: all 0.2s linear;
+                &:hover{
+                    color: $active;
+                    background: $greyLight;
+                }
+            }
+
+            section.logout {
+                border-top: solid 1px $greyLight;
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                padding: 10px 0;
+                a {
+                    margin: 0 15%;
+                }
+            }
+
+            section.profile {
+                text-align: center;
+                padding-top: 10px;
+                border-bottom: solid 1px $greyLight;
+                img {
+                    width: 50%;
+                    border-radius: 50%;
+                    border: 1px solid $greyLight;
+                }
+            }
+        }
+
+        .col-right {
+            min-height: calc(100vh - 20px);
+            .mini-bar {
+                display: none;
+                position: relative;
+                float: left;
+                width: 100%;
+                border-bottom: solid 1px $greyLight;
+                input[type=button] {
+                    position: absolute;
+                    width: 36px;
+                    height: 36px;
+                    border: solid 1px $greyLight;
+                    background-color: transparent;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    outline: none;
+                    transition: all 0.2s linear;
+                    &:hover {
+                        background-color: $greyLight;
+                        border-color: $black;
+                    }
+                }
+                .btn-menu {
+                    left: 10px;
+                    background-image: url('./../../images/icon-menu.png');
+                }
+                h3 {
+                    width: 100%;
+                    float: left;
+                    text-align: center;
+                    margin: 11px 0;
+                    font-weight: 300;
+                }
+                .btn-search {
+                    right: 10px;
+                    background-image: url('./../../images/icon-search.png');
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@media only screen and (max-width:991px) { 
+	.col-left{
+		width: 29%;
+		margin-right: 1%;
+	}
+
+    .App > .wrapper .col-right {
+		width: 70%;
+		.page-title {
+			display: block;
+		}
+	}
+
+	.ResultItem {
+		width: calc(100% - 16px);
+		a {
+			display: block;
+			float: left;
+			width: 30%;
+		}
+		.info {
+			width: 70%;
+			float: left;
+			h3, p {
+				width: 100%;
+				float: left;
+				padding: 0 6px;
+			}
+		}
+	}
+
+	.Video {
+		.col-video-left, .col-video-right {
+			width: 100%;
+		}
+		.col-video-right {
+			margin-top: 15px;
+			.ListItems .ResultItem h3 a {
+				width: 100%;
+			}
+		}
+	}
+}
