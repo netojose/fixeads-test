@@ -19,3 +19,4 @@
 ### Bonus
 - :white_check_mark: [Demo online on heroku](https://fixeads-test.herokuapp.com/)
 - :white_check_mark: Use Redux
+- :white_check_mark: Nice Loader

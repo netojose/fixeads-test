@@ -22,6 +22,12 @@ class Video extends Component {
     }
   }
 
+  componentDidUpdate(prevProps, prevState){
+    if(this.props.match.params.id !== prevProps.match.params.id) {
+      this.props.setVideo(this.props.match.params.id);
+    }
+  }
+
   /**
    * render
    * @return {ReactElement} markup.
