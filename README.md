@@ -11,7 +11,7 @@
 ### Testing
 - After installed, run: `yarn test` or `npm test`
 
-**Obs.: Before run a test command, run `npm/yarn start` at least once, to generate css files (thanks react-create-app boilerplate for your limitation :rage: )**
+**Obs.: Before run a test command, run `npm/yarn start` at least once, to generate css files (thanks create-react-app boilerplate for your limitation :rage: )**
 
 ### Online demo
 - [View on heroku](https://fixeads-test.herokuapp.com/)
@@ -24,7 +24,7 @@
 ### Used tools
 - [React](https://facebook.github.io/react/) <small>(A JavaScript library for building user interfaces)</small>
 - [Redux](http://redux.js.org/) <small>(Predictable state container for JavaScript apps)</small>
-- [Redux trunk](https://github.com/gaearon/redux-thunk) <small>(Redux Side Effect management)</small>
+- [Redux thunk](https://github.com/gaearon/redux-thunk) <small>(Redux Side Effect management)</small>
 - [React router](https://reacttraining.com/react-router/) <small>(Declarative routing for React)</small>
 - [SASS](http://sass-lang.com/) <small>(CSS extension language)</small>
 - [ES6](http://es6-features.org/) <small>(The latest version of the ECMAScript standard)</small>
